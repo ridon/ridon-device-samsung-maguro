@@ -1,5 +1,5 @@
 ## Specify phone tech before including full_phone
-$(call inherit-product, vendor/replicant/config/gsm.mk)
+$(call inherit-product, vendor/ridon/config/gsm.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := GN-GSM
@@ -8,17 +8,17 @@ PRODUCT_RELEASE_NAME := GN-GSM
 TARGET_BOOTANIMATION_NAME := vertical-720x1280
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/replicant/config/common_full_phone.mk)
+$(call inherit-product, vendor/ridon/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/replicant/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/ridon/config/nfc_enhanced.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/maguro/full_maguro.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := maguro
-PRODUCT_NAME := replicant_maguro
+PRODUCT_NAME := ridon_maguro
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_MANUFACTURER := Samsung
