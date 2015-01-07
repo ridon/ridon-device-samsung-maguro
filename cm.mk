@@ -11,9 +11,6 @@ $(call inherit-product, vendor/ridon/config/common_full_phone.mk)
 # Enhanced NFC
 $(call inherit-product, vendor/ridon/config/nfc_enhanced.mk)
 
-# Inherit device configuration
-$(call inherit-product, device/samsung/maguro/aosp_maguro.mk)
-
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := maguro
 PRODUCT_NAME := ridon_maguro
