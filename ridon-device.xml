@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="ridon/ridon-device-samsung-maguro" path="device/samsung/maguro" remote="ridon-remote" revision="ridon-5.0" />
+  <remove-project name="platform/hardware/ti/omap4xxx" />
   <project name="ridon/ridon-device-samsung-tuna" path="device/samsung/tuna" remote="ridon-remote" revision="ridon-5.0" />
   <project name="ridon/ridon-proprietary-vendor-samsung" path="vendor/samsung/tuna" remote="ridon-remote" revision="aosp-5.0" />
 </manifest>
